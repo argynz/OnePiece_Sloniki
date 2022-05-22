@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - FLOWER
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - Enemy_COLLIDE
+  - Enemy_NO_COLLIDE
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background 1
+    uniqueID: 2699820181
+    locked: 0
+  - name: Background 2
+    uniqueID: 3271845995
+    locked: 0
+  - name: Enviroment
+    uniqueID: 1975354703
+    locked: 0
+  - name: Items
+    uniqueID: 3570021925
+    locked: 0
+  - name: Player
+    uniqueID: 2365123449
+    locked: 0
+  - name: Foreground 1
+    uniqueID: 2521248209
+    locked: 0
+  - name: Foreground 2
+    uniqueID: 3228036555
+    locked: 0
