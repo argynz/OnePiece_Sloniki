@@ -6,6 +6,8 @@ public class TestNPC : EnemyController
 {
     public Transform target;
     public float chaseRadius;
+    public float attackRadius;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +21,7 @@ public class TestNPC : EnemyController
     }
 
     void CheckDistance(){
-        if(Vector3.Distance(target.position, transform.position) <= chaseRadius)
+        if(Vector3.Distance(target.position, transform.position) <= chaseRadius&& Vector3.Distance(target.position, transform.position) > attackRadius)
         {
             transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
         }

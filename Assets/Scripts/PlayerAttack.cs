@@ -18,17 +18,17 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        if (timeBtwAttack <= 0)
-        {
-            if (Input.GetMouseButton(0))
-            {
-                animator.SetTrigger(attackAnimHash);
-            }
-        } 
-        else
-        {
-            timeBtwAttack -= Time.deltaTime;
-        }
+        // if (timeBtwAttack <= 0)
+        // {
+        //     if (Input.GetMouseButton(0))
+        //     {
+        //         animator.SetTrigger(attackAnimHash);
+        //     }
+        // } 
+        // else
+        // {
+        //     timeBtwAttack -= Time.deltaTime;
+        // }
     }
     
     public void OnAttack()

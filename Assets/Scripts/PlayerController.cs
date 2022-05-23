@@ -1,7 +1,18 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+public enum PlayerState{
+    walk,
+    attack,
+    interact,
+    stagger,
+    idle
+}
 
 public class PlayerController : MonoBehaviour
 {
+    public PlayerState currentState;
     public float walkSpeed;
     public float runSpeed;
     public float movementSpeed;
@@ -28,9 +39,12 @@ public class PlayerController : MonoBehaviour
     public StarveBar StarveBar;
 
     public bool isOpen;
+    public bool attacks=false;
+
     
     void Start()
     {
+        currentState = PlayerState.walk;
         rb = GetComponent<Rigidbody>();
 
         horizontalAnimHash = Animator.StringToHash("Horizontal");
@@ -64,8 +78,19 @@ public class PlayerController : MonoBehaviour
         HandleInputs();
         
         Move();
+
+        if(Input.GetMouseButton(0) && currentState != PlayerState.attack 
+           && currentState != PlayerState.stagger)
+        {
+            StartCoroutine(AttackCo());
+        }
+        else
+        {
+            
+            Animate();
+        }
         
-        Animate();
+        
         
     }
 
@@ -80,6 +105,16 @@ public class PlayerController : MonoBehaviour
         {
             CheckInteraction();
         }
+    }
+
+    private IEnumerator AttackCo()
+    {
+        anim.SetBool("Attacking", true);
+        currentState = PlayerState.attack;
+        yield return null;
+        anim.SetBool("Attacking", false);
+        yield return new WaitForSeconds(.3f);
+        currentState = PlayerState.walk;
     }
 
     bool CanMoveOrInteract()
@@ -157,5 +192,28 @@ public class PlayerController : MonoBehaviour
         currentStarve -= starve;
 
         StarveBar.SetStarve(currentStarve);
+    }
+    public void Knock(float knockTime)
+    {
+        // currentHealth.RuntimeValue -= damage;
+        // playerHealthSignal.Raise();
+        // if (currentHealth.RuntimeValue > 0)
+        // {
+
+             StartCoroutine(KnockCo(knockTime));
+        // }else{
+        //     this.gameObject.SetActive(false);
+        // }
+    }
+
+    private IEnumerator KnockCo(float knockTime)
+    {
+        if (rb != null)
+        {
+            yield return new WaitForSeconds(knockTime);
+            rb.velocity = Vector3.zero;
+            currentState = PlayerState.idle;
+            rb.velocity = Vector3.zero;
+        }
     }
 }
