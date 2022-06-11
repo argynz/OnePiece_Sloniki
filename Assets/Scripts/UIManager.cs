@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        PausePanel.GetComponent<Animator>().updateMode = AnimatorUpdateMode.UnscaledTime; 
+        PausePanel.GetComponent<Animator>().updateMode = AnimatorUpdateMode.UnscaledTime;
     }
     public void PlayBtn()
     {
@@ -22,7 +22,7 @@ public class UIManager : MonoBehaviour
 
     public void MainMenuBtn()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        SceneManager.LoadScene(0);
     }
     public void TryAgainBtn()
     {
@@ -65,7 +65,7 @@ public class UIManager : MonoBehaviour
     public void Pause()
     {
         PausePanel.SetActive(true);
-        
+
         Time.timeScale = 0f;
         GameIsPaused = true;
     }

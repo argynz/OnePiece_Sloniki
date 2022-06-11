@@ -42,6 +42,7 @@ public class Log : EnemyController
     private void changeAnim(Vector3 direction){
         if(Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
         {
+            //Debug.Log(direction.x);
             if(direction.x > 0){
                 SetAnimFloat(Vector3.right);
             }else if (direction.x < 0)
@@ -49,13 +50,15 @@ public class Log : EnemyController
                 SetAnimFloat(Vector3.left);
             }
         }else if(Mathf.Abs(direction.x) < Mathf.Abs(direction.y)){
-            if(direction.y > 0)
-            {
-                SetAnimFloat(Vector3.up);
-            }
-            else if (direction.y < 0)
+            Debug.Log(direction.y);
+            if(direction.y < 0)
             {
                 SetAnimFloat(Vector3.down);
+            }
+            else if (direction.y > 0)
+            {
+                Debug.Log("up");
+                SetAnimFloat(Vector3.up);
             }
         }
     }

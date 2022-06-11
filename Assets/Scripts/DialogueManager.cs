@@ -4,19 +4,22 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    private Queue<string> sentences;
+    private Queue<Sentence> sentences;
     private bool isOpen = false;
 
     public Text nameText;
     public Text sentenceText;
+    public Image avatar;
 
     public Animator anim;
     private int isOpenHash;
 
+    private GameObject activateAfterDialogue;
+
     void Start()
     {
         isOpenHash = Animator.StringToHash("isOpen");
-        sentences = new Queue<string>();
+        sentences = new Queue<Sentence>();
     }
 
     private void Update()
@@ -29,12 +32,16 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        isOpen = true;
+        if (!isOpen)
+        {
+            isOpen = true;
+        }
+
+        activateAfterDialogue = dialogue.activateAfterDialogue;
         anim.SetBool(isOpenHash, isOpen);
-        nameText.text = dialogue.name;
 
         sentences.Clear();
-        foreach (string sentence in dialogue.sentences)
+        foreach (Sentence sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
         }
@@ -50,14 +57,25 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        string sentence = sentences.Dequeue();
-        sentenceText.text = sentence;
+        Sentence sentence = sentences.Dequeue();
+        nameText.text = sentence.name;
+        sentenceText.text = sentence.text;
+        avatar.sprite = sentence.avatar;
+        
         FindObjectOfType<AudioManager>().dialogueAudio.Play();
     }
 
     private void EndDialogue()
     {
-        isOpen = false;
+        if (isOpen)
+        {
+            isOpen = false;
+        }
+
+        if (activateAfterDialogue != null)
+        {
+            activateAfterDialogue.SetActive(true);
+        }
         anim.SetBool(isOpenHash, isOpen);
         FindObjectOfType<AudioManager>().dialogueAudio.Stop();
     }
