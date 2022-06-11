@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: c982a92d9f92d8c46b3b616c8cead3a6
   - enabled: 1
-    path: Assets/Assets_2/Scenes/StaringCutscene.unity
-    guid: e9473c837bd50ba47a013406baf8fee9
+    path: Assets/Scenes/StartingCutscene.unity
+    guid: 3a176d8877754bd44bd9857856c03ca0
   - enabled: 1
-    path: Assets/GrassFlowers/Demo/FirstIsland.unity
+    path: Assets/Scenes/FirstIsland.unity
     guid: 679e28dd92e786342b7944447228f70c
   m_configObjects: {}
