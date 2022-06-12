@@ -279,6 +279,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &227034934 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1755865762927443784, guid: fc969767da2ff404da890e3e04ad9c5b, type: 3}
+  m_PrefabInstance: {fileID: 1753306003}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0ecdf7454e0294ea28a675b29666ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &269064205 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7368369876162208644, guid: 1a1527c43a681f94d84371b373c0e298, type: 3}
@@ -346,6 +357,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 185110655ac962840a70f3cde7fcd4d3, type: 3}
+--- !u!1 &456105705 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7592911080118341667, guid: 8d4a42beb74091042ae2825f075cc647, type: 3}
+  m_PrefabInstance: {fileID: 1838528032}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &592583502 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2617772328359674804, guid: 15b814de34986af429b3693b9e7856e7, type: 3}
+  m_PrefabInstance: {fileID: 1655930057}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20d0a52a374d514b813f1d9e301096f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &670840084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1730,10 +1757,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 250113073, guid: 1c5670517f8b9604aa214ace4508541e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 250113073, guid: 1c5670517f8b9604aa214ace4508541e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 802531895164505583, guid: 1c5670517f8b9604aa214ace4508541e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.78754205
+      objectReference: {fileID: 0}
+    - target: {fileID: 802531895164505583, guid: 1c5670517f8b9604aa214ace4508541e, type: 3}
+      propertyPath: m_Center.y
+      value: 0.0027382672
+      objectReference: {fileID: 0}
     - target: {fileID: 2419966016983729090, guid: 1c5670517f8b9604aa214ace4508541e, type: 3}
       propertyPath: m_Name
       value: Luffy mchar
       objectReference: {fileID: 0}
+    - target: {fileID: 2419966016983729091, guid: 1c5670517f8b9604aa214ace4508541e, type: 3}
+      propertyPath: StarveBar
+      value: 
+      objectReference: {fileID: 592583502}
+    - target: {fileID: 2419966016983729091, guid: 1c5670517f8b9604aa214ace4508541e, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 227034934}
+    - target: {fileID: 2419966016983729091, guid: 1c5670517f8b9604aa214ace4508541e, type: 3}
+      propertyPath: GameOverScreen
+      value: 
+      objectReference: {fileID: 456105705}
     - target: {fileID: 2419966016983729101, guid: 1c5670517f8b9604aa214ace4508541e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1744,7 +1799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2419966016983729101, guid: 1c5670517f8b9604aa214ace4508541e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0010375977
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 2419966016983729101, guid: 1c5670517f8b9604aa214ace4508541e, type: 3}
       propertyPath: m_LocalPosition.z
