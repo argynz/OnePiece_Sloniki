@@ -1433,7 +1433,7 @@ PrefabInstance:
     - target: {fileID: 2853911861764894205, guid: b524361f5b506264eab7b159959b9245, type: 3}
       propertyPath: PausePanel
       value: 
-      objectReference: {fileID: 269064205}
+      objectReference: {fileID: 7368369876162208644, guid: 1a1527c43a681f94d84371b373c0e298, type: 3}
     - target: {fileID: 2853911861764894205, guid: b524361f5b506264eab7b159959b9245, type: 3}
       propertyPath: audioMixer
       value: 
@@ -1616,6 +1616,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7592911080118341669, guid: 8d4a42beb74091042ae2825f075cc647, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 30235fb948cc7674f8f458b2322ff928, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d4a42beb74091042ae2825f075cc647, type: 3}
 --- !u!224 &1838528033 stripped
@@ -1845,7 +1849,7 @@ Transform:
   m_GameObject: {fileID: 2054335544}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1770232248}
   m_RootOrder: 2
