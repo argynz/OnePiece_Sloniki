@@ -15,9 +15,9 @@ public class Footstep : MonoBehaviour
 
     void Update()
     {
-        if (playerController.movementSpeed > 0 && !audio.isPlaying)
+        if (playerController.movementSpeed > 0.5f && !audio.isPlaying)
         {
-            audio.volume = Random.Range(0.8f, 1f);
+            audio.volume = Random.Range(0.3f, 0.5f);
             audio.pitch = Random.Range(0.8f, 1.1f);
             audio.Play();
         }
