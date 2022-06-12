@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 176967b8a65b99041a3ae1dd868cbc7b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ui_Window: {instanceID: 0}
+  - ui_Description_Window: {instanceID: 0}
+  - description_Image: {instanceID: 0}
+  - description_Title: {instanceID: 0}
+  - description_Text: {instanceID: 0}
+  - FLOWER1: {fileID: 3143876460873221284, guid: d32ed1843eb1d584ea2f3a5bb1a834c8, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

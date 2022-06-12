@@ -1,7 +1,35 @@
 fileFormatVersion: 2
 guid: 123d54a09b5e49a7b77ca17b4009834c
 TextureImporter:
+<<<<<<< HEAD
   internalIDToNameTable: []
+=======
+  internalIDToNameTable:
+  - first:
+      213: -2181838360404834039
+    second: 001_rifle_0
+  - first:
+      213: 3292672510114225251
+    second: 001_rifle_1
+  - first:
+      213: 2219920971424934461
+    second: 001_rifle_2
+  - first:
+      213: 5026521850032956575
+    second: 001_rifle_3
+  - first:
+      213: 8333481726314500824
+    second: rifle_0
+  - first:
+      213: -2467041043869801362
+    second: rifle_1
+  - first:
+      213: -8742243980035695331
+    second: rifle_2
+  - first:
+      213: 351736906144962385
+    second: rifle_3
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -37,18 +65,32 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
+<<<<<<< HEAD
     wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
+=======
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
+=======
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -65,43 +107,167 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+<<<<<<< HEAD
     maxTextureSize: 2048
+=======
+    maxTextureSize: 4096
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
+<<<<<<< HEAD
     crunchedCompression: 0
+=======
+    crunchedCompression: 1
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+<<<<<<< HEAD
     maxTextureSize: 2048
+=======
+    maxTextureSize: 4096
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
+<<<<<<< HEAD
     crunchedCompression: 0
+=======
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+<<<<<<< HEAD
     maxTextureSize: 2048
+=======
+    maxTextureSize: 4096
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
+<<<<<<< HEAD
     crunchedCompression: 0
+=======
+    crunchedCompression: 1
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites: []
+=======
+    sprites:
+    - serializedVersion: 2
+      name: rifle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 360
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d25f273a7976a370800000000000000
+      internalID: 8333481726314500824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rifle_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 360
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64e4d5dd3f43cdd0800000000000000
+      internalID: -2467041043869801362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rifle_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 360
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ddc262b6f4da680800000000000000
+      internalID: -8742243980035695331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rifle_3
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 360
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1575a214ade91e400800000000000000
+      internalID: 351736906144962385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
     outline: []
     physicsShape: []
     bones: []

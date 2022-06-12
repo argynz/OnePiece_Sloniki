@@ -1,7 +1,35 @@
 fileFormatVersion: 2
 guid: 2f90eb840bd0cf4438d49759bc08d718
 TextureImporter:
+<<<<<<< HEAD
   internalIDToNameTable: []
+=======
+  internalIDToNameTable:
+  - first:
+      213: -7740792752860969874
+    second: TopDown_NPC_0
+  - first:
+      213: -5383561740659237547
+    second: TopDown_NPC_1
+  - first:
+      213: -5184345850046446626
+    second: TopDown_NPC_2
+  - first:
+      213: -6778634467473319316
+    second: TopDown_NPC_3
+  - first:
+      213: -1940738496428130850
+    second: Luna 0
+  - first:
+      213: -6131185593638097393
+    second: Luna 1
+  - first:
+      213: 5084661014962647745
+    second: Ludo 0
+  - first:
+      213: -4896452150530583312
+    second: Ludo 1
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +60,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: 1
+=======
+    filterMode: 0
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +73,20 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 1
+=======
+  spriteMode: 2
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 100
+=======
+  spritePixelsToUnits: 16
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -65,10 +105,17 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+<<<<<<< HEAD
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+=======
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,10 +124,17 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+<<<<<<< HEAD
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+=======
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -89,10 +143,29 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+<<<<<<< HEAD
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+=======
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,11 +174,199 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
+=======
+    sprites:
+    - serializedVersion: 2
+      name: Luna 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 4}
+        - {x: 7, y: 5}
+        - {x: 6, y: 5}
+        - {x: 6, y: 6}
+        - {x: 5, y: 6}
+        - {x: 5, y: 7}
+        - {x: 4, y: 7}
+        - {x: 4, y: 8}
+        - {x: -4, y: 8}
+        - {x: -4, y: 7}
+        - {x: -5, y: 7}
+        - {x: -5, y: 6}
+        - {x: -6, y: 6}
+        - {x: -6, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -5}
+        - {x: -7, y: -5}
+        - {x: -7, y: -6}
+        - {x: -6, y: -6}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -7}
+        - {x: -2, y: -7}
+        - {x: -2, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -7}
+        - {x: 3, y: -7}
+        - {x: 3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: -3}
+        - {x: 5, y: -3}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: -6}
+        - {x: 7, y: -6}
+        - {x: 7, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: 4}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: eddb976be9c1115e0800000000000000
+      internalID: -1940738496428130850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna 1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 3}
+        - {x: 7, y: 3}
+        - {x: 7, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 5, y: 5}
+        - {x: 5, y: 6}
+        - {x: 4, y: 6}
+        - {x: 4, y: 7}
+        - {x: -4, y: 7}
+        - {x: -4, y: 6}
+        - {x: -5, y: 6}
+        - {x: -5, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: 3}
+        - {x: -8, y: 3}
+        - {x: -8, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -7}
+        - {x: -6, y: -7}
+        - {x: -6, y: -3}
+        - {x: -5, y: -3}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -3, y: -5}
+        - {x: -3, y: -7}
+        - {x: -2, y: -7}
+        - {x: -2, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -7}
+        - {x: 3, y: -7}
+        - {x: 3, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -3}
+        - {x: 6, y: -3}
+        - {x: 6, y: -7}
+        - {x: 7, y: -7}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: f0e653fdf27a9eaa0800000000000000
+      internalID: -6131185593638097393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludo 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c23020e048509640800000000000000
+      internalID: 5084661014962647745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludo 1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f45deb26be4c0cb0800000000000000
+      internalID: -4896452150530583312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5b09594aa39374849bb4f0395b4a5347
+>>>>>>> 0583064a1bdf441603ec99ed2d8944bf2b4c2fea
     internalID: 0
     vertices: []
     indices: 
